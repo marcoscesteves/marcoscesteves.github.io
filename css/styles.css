@@ -108,7 +108,12 @@ body {
 }
 
 .video-container {
-    text-align: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  object-fit: contain; /* garante que ele não estique ao entrar em fullscreen */
 }
 
 /* about container */
