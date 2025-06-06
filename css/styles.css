@@ -113,7 +113,7 @@ body {
   height: auto;
   max-width: 100%;
   display: block;
-  object-fit: contain; /* garante que ele não estique ao entrar em fullscreen */
+  object-fit: contain; 
 }
 
 /* about container */
